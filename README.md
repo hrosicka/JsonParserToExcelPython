@@ -1,7 +1,7 @@
 # JsonParserToExcelPython
 
 ## Transfom data from json file into Excel file - simple script
-- Read json file - as example used party list of friends
+- Read json file - party list of friends is used as example
 - Create dictionary from json
 - Export dictionary into excel
 
