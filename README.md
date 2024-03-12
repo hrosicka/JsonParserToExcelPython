@@ -10,3 +10,6 @@ Json file - party list of friends [Json file - parsed data](https://github.com/h
 
 ### Excel file - output
 Excel file - party list of friends [Excel file - results](https://github.com/hrosicka/JsonParserToExcelPython/blob/master/party_list.xlsx).
+
+### Final results in Excel file
+![](https://github.com/hrosicka/JsonParserToExcelPython/blob/master/doc/FinalResults.PNG)
