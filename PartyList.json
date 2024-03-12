@@ -1,0 +1,28 @@
+{ 
+	"my_party_list":[
+		{
+			"first_name": "John",
+			"last_name": "Black",
+			"phone": "123456789",
+			"email": "black@termpuri.org"
+		},
+		{
+			"first_name": "Carol",
+			"last_name": "Pink",
+			"phone": "1234579898",
+			"email": "pink@termpuri.org"
+		},
+		{
+			"first_name": "Alicia",
+			"last_name": "Novak",
+			"phone": "9511599551494",
+			"email": "novak@termpuri.org"
+		},
+		{
+			"first_name": "Arabella",
+			"last_name": "Grey",
+			"phone": "999551494",
+			"email": "grey@termpuri.org"
+		}
+	]
+}
