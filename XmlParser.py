@@ -19,15 +19,14 @@ party_list = data["my_party_list"]
 # Iterating through the json list
 for i in data['my_party_list']:
     print(i["first_name"] + "\t" + i["last_name"] + "\t" + i["phone"] + "\t" + i["email"])
-    # rename keys in dictionary
-    i["First Name"] = i["first_name"]
-    del i["first_name"]
-    i["Last Name"] = i["last_name"]
-    del i["last_name"]
-    i["Phone"] = i["phone"]
-    del i["phone"]
-    i["Email"] = i["email"]
-    del i["email"]
+
+# Rename keys using a dictionary comprehension
+party_list = [{
+    "First Name": entry["first_name"],
+    "Last Name": entry["last_name"],
+    "Phone": entry["phone"],
+    "Email": entry["email"]
+} for entry in party_list]
 
 
 # Creating Excel Writer Object from Pandas  
